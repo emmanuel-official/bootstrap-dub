@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnePage Template</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">OnePage</div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Dropdown</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="btn">Get Started</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>One Page Bootstrap<br> Website Template</h1>
+    <p>We are team of talented designers making websites with Bootstrap</p>
+    <a href="#" class="btn">Get Started</a>
+  </section>
+
+ <section class="features">
+    <div class="feature-box">
+        <i class="fa-solid fa-tv"></i>
+        <h3>Lorem Ipsum</h3>
+        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+    </div>
+    <div class="feature-box">
+        <i class="fa-solid fa-gem"></i>
+        <h3>Sed ut perspiciatis</h3>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+    </div>
+    <div class="feature-box">
+        <i class="fa-solid fa-location-dot"></i>
+        <h3>Magni Dolores</h3>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+        </div>
+    <div class="feature-box">
+        <i class="fa-solid fa-code-branch"></i>
+        <h3>Nemo Enim</h3>
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2024 OnePage. All rights reserved.</p>
+</footer>
+
+  <script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
